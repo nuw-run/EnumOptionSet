@@ -354,9 +354,9 @@ extension EnumOptionSetMacro {
             }
         }
 
-        var categoryChain: [SwiftDiagnostics.DiagnosticCategory] {
+        /*var categoryChain: [SwiftDiagnostics.DiagnosticCategory] {
             []
-        }
+        }*/
 
         var fixItID: SwiftDiagnostics.MessageID {
             diagnosticID
